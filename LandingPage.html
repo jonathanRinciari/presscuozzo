@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="landingpage.css">
+<link rel="stylesheet" type="text/css" href="landingpage.css">
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<title>Susan Santoro Group</title>
 </head>
 <body>
-<nav class="navbar navbar-default">
+<div class="imgLandingPage">
+	<a href="landingpage.html"> <img src="http://www.presscuozzo.com/images/header.gif"></a>
+<div>
+	<h1>2751 Dixwell Ave, Hamden, CT 06518 203-288-1900</h1>
+</div>
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -20,16 +25,15 @@
       </button>
       <a class="navbar-brand" href="#">Brand</a>
     </div>
-
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-      </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Buy</a></li>
+        <li><a href="#">Sell</a></li>
+        <li><a href="#">Rent</a></li>
+        <li><a href="#">Neighborhoods</a></li>
+        <li class="About Us">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Action</a></li>
@@ -43,11 +47,29 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+</div>
+<div>
+	<img id="homeImg" src="http://www.seaburyhill.com/wp-content/uploads/2016/12/banner2.jpg">
+</div>
+</div>
 
-	<div>
-		<a href="landingpage.html"> <img src="http://www.presscuozzo.com/images/header.gif"></a>
-		<h1>2751 Dixwell Ave, Hamden, CT 06518 203-288-1900</h1>
-	</div>
-
+<div id="buttonContainer">
+  <div class="row">
+	  	<div class="col-mid-6">
+			<button> Search Properties</button>
+		</div>
+		<div class="col-mid-6">
+			<button> Search Rentals</button>
+		</div>
+		<div class="col-mid-6">
+			<button> Your Homes Value</button>
+		</div>
+  </div>
+</div>
+<script
+  src="http://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
